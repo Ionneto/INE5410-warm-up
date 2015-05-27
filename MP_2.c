@@ -18,7 +18,6 @@ int main(int argc, char *argv[]) {
     c[i] = sqrt(i * 32) + sqrt(i * 16 + i * 8) + sqrt(i * 4 + i * 2 + i);
     c[i] -= sqrt(i * 32 * i * 16 + i * 4 + i * 2 + i);
     c[i] += pow(i * 32, 8) + pow(i * 16, 12);
-    printf("%d\n", c[i] );
   }
 
   free(c);
